@@ -1,0 +1,20 @@
+.nav-bar{
+    display: block;
+    background: linear-gradient(to bottom left,rgb(230, 136, 136),red);
+    padding: 20px;
+}
+.nav-bar ul li{
+    display: inline;
+}
+.nav-bar ul li a{
+    padding: 10px;
+    margin: 0.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover,.nav-active{
+    border-bottom: 2px solid white;
+}

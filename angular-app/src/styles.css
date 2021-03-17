@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'arial';
+}
+button,a{
+    cursor: pointer;
+}
+button:hover{
+    transition: all .5s ease;
+    transform: translateY(-1px);
+    box-shadow: 0px 1px 2px rgb(179, 178, 178);
+}

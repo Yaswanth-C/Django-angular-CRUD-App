@@ -1,0 +1,65 @@
+.bread-crumb{
+    display: block;
+    background: rgb(173, 173, 173);
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+.bread-crumb div{
+    padding: 15px;
+}
+.container{
+    margin: 3rem;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.card{
+    width: 300px;
+    height: 110%;
+    border-radius: 3px;
+    box-shadow: 0px 0px 8px rgb(197, 195, 195);
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .5s ease;
+}
+.c-hover:hover{
+    box-shadow:0px 3px 8px rgb(141, 141, 141);
+    transform: translateY(-5px);
+}
+.card div{
+    margin-bottom: 3px;
+}
+.btn{
+    padding: 8px;
+    text-decoration: none;
+    background: whitesmoke;
+    color: black;
+    border: none;
+    margin: 5px;
+    border-radius: 3px;
+    width: fit-content;
+}
+.buttons{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+}
+.danger{
+    background: rgba(255, 0, 0, 0.87);
+    color: white;
+}
+.success{
+    background: rgb(32, 238, 32);
+    color: white;
+}
+.secondary{
+    background: rgb(141, 141, 141);
+    color: white;
+}

@@ -1,0 +1,41 @@
+<div class="bread-crumb">
+    <div>    <span>Add new product</span>   </div>
+</div>
+<div class="container flex">
+        <div class="form">
+            <form action="" [formGroup]="productForm" (ngSubmit)="postMyData()">
+                <table>
+                    <tr>
+                        <td>Product name:</td>
+                        <td>
+                            <input class="input" type="text" formControlName="name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Price:</td>
+                        <td>
+                            <input class="input" type="number" formControlName="price">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Category:</td>
+                        <td>
+                            <select class="input" name="" id="" formControlName="category">
+                                <option value="">select</option>
+                                <option value="mobiles">Mobiles</option>
+                                <option value="smartphones">Smart phones</option>
+                                <option value="accessories">Accessories</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="center">
+                                <button type="submit">submit</button>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+</div>

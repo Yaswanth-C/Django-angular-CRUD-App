@@ -1,0 +1,55 @@
+.bread-crumb{
+    display: block;
+    background: rgb(173, 173, 173);
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+.bread-crumb div{
+    padding: 15px;
+}
+.container{
+    margin: 2rem;
+}
+.flex{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.form{
+    border-radius: 3px;
+    box-shadow: 1px 1px 30px 2px rgb(221, 221, 221);
+    padding: 20px;
+}
+.input{
+    border: 1px solid grey;
+    outline: none;
+    padding: 5px;
+    margin: 15px 0px;
+    height: 35px;
+    width: 300px;
+    border-radius: 3px;
+    font-size: 18px;
+}
+td{
+    font-size: 18px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background: rgb(32, 235, 14);
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: medium;
+    margin: 10px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

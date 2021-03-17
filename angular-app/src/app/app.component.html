@@ -1,0 +1,16 @@
+    <nav class="nav-bar">
+        <ul>
+            <li>
+                <a routerLink="" routerLinkActive="nav-active" [routerLinkActiveOptions]="{exact:true}" class="nav-link">Home</a>
+            </li>
+            <li>
+                <a routerLink="addnew" routerLinkActive="nav-active" [routerLinkActiveOptions]="{exact:true}" class="nav-link">Add new product</a>
+            </li>
+            <li>
+                <a routerLink="viewadded" routerLinkActive="nav-active" [routerLinkActiveOptions]="{exact:true}" class="nav-link">View added Products</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="router-out">
+        <router-outlet></router-outlet>
+    </div>
